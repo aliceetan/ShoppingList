@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ShoppingList</string>
+    <string name="item_prompt">Choose a category</string>
+    <string name="itemID">itemID</string>
+
+    <string-array name="item_type">
+        <item>Food</item>
+        <item>Clothing</item>
+        <item>Electronics</item>
+        <item>Books</item>
+
+    </string-array>
+</resources>

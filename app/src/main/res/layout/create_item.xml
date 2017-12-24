@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/etItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Item name"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Item type"
+        android:paddingBottom="10dp"/>
+
+    <Spinner
+        android:id="@+id/spnrDropDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/item_type"
+        android:prompt="@string/item_prompt"
+        android:spinnerMode="dropdown">
+
+    </Spinner>
+
+    <EditText
+        android:id="@+id/etPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Estimated Price"/>
+
+    <EditText
+        android:id="@+id/etDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Item description"/>
+
+    <CheckBox
+        android:id="@+id/cbPurchased"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already purchased"/>
+
+    <Button
+        android:id="@+id/btnAddRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Item"/>
+
+
+</LinearLayout>
